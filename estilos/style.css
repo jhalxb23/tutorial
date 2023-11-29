@@ -1,0 +1,50 @@
+header{
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+#nota{
+   width: 50px;
+    position: absolute;
+    border-radius: 50px;
+
+}
+
+
+nav{
+   text-align: center;
+    margin: 0;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a{
+   
+    padding: 20px;
+    text-decoration: none;
+}
+nav ul li:hover 
+   
+    {
+        background: #eca023;
+    }
+
+.contenido{
+    background-color: aquamarine;
+
+}
